@@ -27,6 +27,7 @@
   "dependencies": {
     "@cdktf/hcl2cdk": "^0.16.0",
     "@cdktf/hcl2json": "^0.16.0",
+    "cdktf": "^0.20.3",
     "express": "^4.18.2"
   }
 }
