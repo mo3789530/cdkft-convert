@@ -1,3 +1,16 @@
-import {} from "cdktf/lib/hcl";
+import { renderLocals } from "./src/hcl/render";
 
-console.log("Hello World");
+const main = () => {
+  console.log("test");
+  const res = renderLocals(`
+    locals = {
+      env = {
+        env = "dev"
+      }
+    }
+  `);
+
+  console.log(res);
+};
+
+main();

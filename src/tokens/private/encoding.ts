@@ -4,7 +4,7 @@
 import {
   canOnlyEncodePositiveIntegers,
   indexTooLargeToEncode,
-} from "../../errors";
+} from "../errors";
 import { IFragmentConcatenator, IResolvable } from "../resolvable";
 import { TokenizedStringFragments } from "../string-fragments";
 import { Tokenization } from "../token";

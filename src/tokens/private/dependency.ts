@@ -3,7 +3,7 @@
 // copied from https://github.com/aws/constructs/blob/e01e47f78ef1e9b600efcd23ff7705aa8d384017/lib/private/dependency.ts
 /* eslint-disable @typescript-eslint/no-empty-interface */
 import { IConstruct } from "constructs";
-import { doesNotImplementDependableTrait } from "../../errors";
+import { doesNotImplementDependableTrait } from "../errors";
 
 /**
  * Trait marker for classes that can be depended upon

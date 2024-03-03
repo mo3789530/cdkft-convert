@@ -7,7 +7,7 @@ import { unresolved } from "./encoding";
 import {
   IdIncludesUnresolvedTokens,
   cannotCalcIdForEmptySetOfComponents,
-} from "../../errors";
+} from "../errors";
 
 /**
  * Resources with this ID are hidden from humans

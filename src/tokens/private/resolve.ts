@@ -28,7 +28,7 @@ import {
   encodedMapTokenInScalarStringContext,
   mapKeyMustResolveToString,
   unableToResolveCircularReference,
-} from "../../errors";
+} from "../errors";
 
 // This file should not be exported to consumers, resolving should happen through Construct.resolve()
 
