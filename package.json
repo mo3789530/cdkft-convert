@@ -25,9 +25,10 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "@cdktf/hcl-tools": "^0.20.4",
     "@cdktf/hcl2cdk": "^0.16.0",
     "@cdktf/hcl2json": "^0.16.0",
-    "cdktf": "^0.20.3",
+    "cdktf": "^0.20.4",
     "express": "^4.18.2"
   }
 }
