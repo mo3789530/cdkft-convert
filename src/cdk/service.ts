@@ -11,6 +11,7 @@ import {
 
 import { parse, convertFiles } from "@cdktf/hcl2json";
 import { LANGUAGES, TerraformProviderConstraint } from "@cdktf/commons";
+import { format } from "@cdktf/hcl-tools";
 
 export class CdkService {
   public async convert2Cdk(hcl: string): Promise<string> {
@@ -52,5 +53,9 @@ export class CdkService {
   public async Dir2Json(path: string): Promise<string> {
     const json = await convertFiles(path);
     return JSON.stringify(json);
+  }
+
+  public async Format(hcl: string): Promise<string> {
+    return await format(hcl);
   }
 }
